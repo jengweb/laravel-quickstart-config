@@ -11,22 +11,9 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', '13.228.160.237'),
-            'database'  => env('DB_DATABASE', 'my_database'),
+            'database'  => env('DB_DATABASE', 'my_database_prod'),
             'username'  => env('DB_USERNAME', 'my_user'),
             'password'  => env('DB_PASSWORD', 'my_password'),
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
-            'engine'    => null,
-        ],
-
-        'mysqltest' => [
-            'driver'    => 'mysql',
-            'host'      => env('DBTEST_HOST', 'mysqltest'),
-            'database'  => env('DBTEST_DATABASE', 'my_database'),
-            'username'  => env('DBTEST_USERNAME', 'my_user'),
-            'password'  => env('DBTEST_PASSWORD', 'my_password'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
