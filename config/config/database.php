@@ -10,10 +10,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', '13.228.160.237'),
-            'database'  => env('DB_DATABASE', 'my_database_prod'),
-            'username'  => env('DB_USERNAME', 'my_user'),
-            'password'  => env('DB_PASSWORD', 'my_password'),
+            'host'      => env('DB_HOST', '13.229.96.47'),
+            'port'      => env('DB_PORT', '54321'),
+            'database'  => env('DB_DATABASE', 'quiq-cms'),
+            'username'  => env('DB_USERNAME', 'root'),
+            'password'  => env('DB_PASSWORD', 'isyl]y[quo'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
